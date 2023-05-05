@@ -10,6 +10,6 @@ app = Flask(__name__)
 def hello_world():
     request_type_str = request.method
     if request_type_str == 'GET':
-        return render_template('M12Q2.html')
+        return render_template('M14C1.html')
     else:
-        return render_template('M12Q2.html')
+        return render_template('M14C1.html')
